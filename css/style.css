@@ -1,0 +1,22 @@
+header{
+    width: 100%;
+    height: 300px;
+}
+
+#headerdoboz{
+    width: 1200px;
+    margin: auto;
+}
+
+#baldoboz{
+    float: left;
+    margin-left: 20px;
+}
+
+#jobbdoboz{
+    float: right;
+    margin-right: 20px;
+}
+
+
+
