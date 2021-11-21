@@ -157,3 +157,11 @@ h3{
 #alul{
     padding-bottom: 40px;
 }
+
+#gomb{
+    background-color: #0D5D56;
+    border-radius: 25px;
+    font-size: 25px;
+    height: 40px;
+    width: 200px;
+}
