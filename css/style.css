@@ -26,7 +26,9 @@ footer{
 }
 
 footer h5{
+    font-size: 15px;
     width: 200px;
     margin: auto;
+    padding: 20px;
 }
 
