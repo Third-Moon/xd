@@ -124,3 +124,14 @@ h3{
 #kisebbtav{
     padding-top: 5px;
 }
+
+.col{
+    margin-top: 30px;
+    background-color: #76e895;
+    border: #001706 2px solid;
+    color: #001706;
+}
+
+#border{
+    border-left: 0;
+}
