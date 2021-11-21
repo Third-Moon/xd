@@ -31,10 +31,23 @@
             lett kifejlesztve, amikor a grafikai kezelőfelületek fejlesztésük korai szakaszában voltak még. Az MVC arra
             törekszik, hogy egy alkalmazást három részre bontson:</p>
         <h3>Bővebben az MWC modelről:</h3>
-        <h3>A modell</h3>
-        <p class="htmlszoveg">Itt tároljuk az adatokat és az üzleti logikát. Egy tipikus webapplikációban ez a rész
-            foglalkozik például az adatbázisokkal és egyéb objektumokkal amivel az applikáció dolgozik.</p>
+        <h3>A vezérlő:</h3>
+        <p class="htmlszoveg" id="kisebbtav">A vezérlő kezeli a modell és a nézet közti kommunikációt. Egy webalkalmazásban a vezérlő metódusai vannak végrehajtva amikor a felhasználó egy weblapot tölt be vagy egy gombra kattint. A vezérlő ezekkel frissíti a modellt, ha szükséges, majd új nézetet ad vissza (vagy actiont, de erről majd később részletesebben), ha pedig az szükséges.</p>
         <center><img src="../xd/images/mvc.png" alt="mvc" id="mvc"></center>
+        <div class="row">
+            <div class="col">
+              <h3>A modell:</h3>
+              <p class="htmlszoveg" id="kisebbtav">Itt tároljuk az adatokat és az üzleti logikát. Egy tipikus webapplikációban ez a rész foglalkozik például az adatbázisokkal és egyéb objektumokkal amivel az applikáció dolgozik.</p>
+            </div>
+            <div class="col">
+              <h3>A nézet:</h3>
+              <p class="htmlszoveg" id="kisebbtav">A nézet a tényleges vizuális leképzése a modellednek. Egy tipikus webalkalmazásban ez lenne például a weblap ami megjeleníti a modellt a felhasználó részére, legyen az egy adatbevitelre használt űrlap, adatkivitelre használt mezők, vagy a kettő keveréke. Természetesen a nézetnek nem kell egy modell minden részét mutatnia, és egy modellhez tartozhat több nézet is.</p>
+            </div>
+          </div>
+        <h3>Az MVC felemelkedése:</h3>
+        <p class="htmlszoveg">Bár már az 1970-es években bemutatták, az MVC struktúra nem nyert nagy teret a következő 30 évben. A korai webnyelvek, mint a Perl, PHP vagy ASP Classic nem helyeztek nagy súlyt a programtervezési mintákra, de kiadáskor még az ASP.NET sem integrálta az MVC struktúrát. Persze használhattad a struktúrát projektjeidben, de egyetlen népszerű keretrendszer sem támogatta különösebben ezt.
+
+            2004-ben aztán kiadták a Ruby on Rails keretrendszert, ami a Ruby nyelvre lett alapozva, és mélyen merítkezett az MVC struktúra elvéből. Sok ember úgy gondolja ez visszahelyezte a hangsúlyt az MVC-re, és röviddel ezután valóban sok PHP keretrendszer került ki, amik szintén az MVC struktúra köré lettek építve. Népszerűvé vált ezzel az MVC, valószínűleg emiatt is döntött úgy a Microsoft, hogy a .NET keretrendszeren saját implementációjukat készítik el. Emellett fejlesztői környezetüket, a Visual Studiot, az implementációt támogató fejlesztői eszközökkel is ellátták. Bár 2007-ben jelent meg először az ASP.NET MVC, az első kész verzió csak 2009-ben látott napvilágot.</p>
 
     </div>
     <footer>
