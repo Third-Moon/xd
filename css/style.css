@@ -1,12 +1,14 @@
 header{
     width: 100%;
     height: 150px;
+    background-color: #0D5D56;
+    color: white;
 }
 
 #headerdoboz{
     width: 1200px;
     margin: auto;
-    
+    padding-top: 20px;
 }
 
 #baldoboz{
@@ -21,8 +23,11 @@ header{
 }
 
 footer{
+    background-color: #0D5D56;
+    color: white;
     width: 100%;
-    height: 150px;
+    height: 100px;
+    margin-top: 0;
 }
 
 footer h5{
@@ -32,3 +37,32 @@ footer h5{
     padding: 20px;
 }
 
+.container{
+    background-color: #329F5B;
+    color: white;
+    margin-bottom: 0;
+}
+
+a{
+    margin-left: 10px;
+    color: white;
+}
+
+a:hover{
+    color: #E5C2C0;
+}
+
+a:checked{
+    color: #E5C2C0;
+}
+
+.htmlszoveg{
+    margin-bottom: 0;
+    padding: 30px;
+}
+
+h3{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
