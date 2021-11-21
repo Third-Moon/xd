@@ -89,12 +89,18 @@ h3{
 }
 
 #htmllogo{
+    border: #001706 2px solid;
+    background-color: white;
     padding-top: 20px;
     width: 200px;
+    padding-bottom: 20px;
 }
 
 #csslogo{
-    width: 150px;
+    border: #001706 2px solid;
+    background-color: white;
+    width: 200px;
+    padding: 20px;
 }
 
 #vsclogo{
@@ -110,11 +116,11 @@ h3{
 }
 
 #cssoldalnovelo{
-    height: 750px;
+    height: 800px;
 }
 
 #mvcoldalnovelo{
-    height: 1500px;
+    height: 1560px;
 }
 
 #vscoldalnovelo{
@@ -148,3 +154,6 @@ h3{
     color: #001706;
 }
 
+#alul{
+    padding-bottom: 40px;
+}
