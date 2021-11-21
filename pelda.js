@@ -3,7 +3,7 @@ function peldaProgram(){
     let prim = true;
 
 if (szam === 1) {
-    document.getElementById("gomb").innerHTML("Az 1 az nem prím szám.");
+    window.alert('Az 1 az nem prím szám.');
 }
 
 else if (szam > 1) {
@@ -14,9 +14,9 @@ else if (szam > 1) {
         }
     }
     if (prim) {
-        document.getElementById("gomb").innerHTML("A" + szam + "egy prím szám.");
+        window.alert('A(z) ' + szam + ' egy prím szám.');
     } else {
-        document.getElementById("gomb").innerHTML("A" + szam + "nem egy prím szám.");
+        window.alert('A(z) ' + szam +' nem egy prím szám.');
     }
 }
 }
