@@ -102,6 +102,7 @@ h3{
     background-color: white;
     width: 420px;
     border: #001706 2px solid;
+    margin-bottom: 30px;
 }
 
 #mvc{
@@ -114,4 +115,8 @@ h3{
 
 #mvcoldalnovelo{
     height: 1000px;
+}
+
+#vscoldalnovelo{
+    height: 780px;
 }
